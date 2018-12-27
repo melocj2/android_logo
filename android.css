@@ -1,0 +1,141 @@
+.main{
+  margin: auto;
+  width: 175px;
+  height: 100%;
+  padding: 15px 0 0 0;
+}
+
+#msg {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#android{
+  width:175px;
+  height: 85px;
+  background:#A4C639;
+  border-radius: 125px 125px 0px 0px;
+  position: relative;
+}
+
+#android:before{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 5px;
+  height: 35px;
+  top: -17px;
+  left: 40px;
+  background:#A4C639;
+  -webkit-transform: rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -o-transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  border-radius: 10px;
+}
+
+#android:after{
+  content:'';
+  position: absolute;
+  z-index: -1;
+  width: 5px;
+  height: 35px;
+  top: -17px;
+  right: 40px;
+  background: #A4C639;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  border-radius: 10px;
+}
+
+#android:hover{
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  transform-origin: bottom left;
+}
+.eye1{
+  margin: 35px 0 0 45px;
+  float: left;
+  width: 15px;
+  height: 15px;
+  background: #FFFFFF;
+  border-radius: 100%;
+}
+
+.eye2{
+  margin: 35px 0 0 55px;
+  float: left;
+  width: 15px;
+  height: 15px;
+  background: #FFFFFF;
+  border-radius: 100%;
+}
+
+#body{
+  margin: 7px 0 0 0;
+  width: 175px;
+  height: 125px;
+  border-radius: 0 0 15px 15px;
+  background: #A4C639;
+  position: relative;
+}
+
+#body:before{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 30px; 
+  height: 80px;
+  top: 0;
+  left: -35px;
+  background: #A4C639;
+  border-radius: 30px;
+}
+
+#body:after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  width: 30px; 
+  height: 80px;
+  top: 0;
+  right: -35px;
+  background: #A4C639;
+  border-radius: 30px;
+}
+
+#leg{
+  margin: 0;
+  width: 175px;
+  height: 50px;
+  position: relative;
+}
+
+#leg:before{
+  content:'';
+  position: absolute;
+  z-index: -1;
+  height: 50px;
+  width: 40px;
+  top: 0;
+  left: 35px; 
+  background: #A4C639;
+  border-radius: 0 0 30px 30px;
+}
+
+#leg:after{
+  content:'';
+  position: absolute;
+  z-index: -1;
+  height: 50px;
+  width: 40px;
+  top: 0;
+  right: 35px; 
+  background: #A4C639;
+  border-radius: 0 0 30px 30px;
+}
