@@ -1,0 +1,48 @@
+<style>
+
+#shape {
+  background: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 0 75%;
+  transform: rotate(135deg); 
+  margin: auto;
+  border: solid black 1px;
+  z-index: -1;
+}
+
+
+#shape:before {
+  content: "";
+  height: 75%;
+  width: 75%; 
+  background: #bed4f7;
+  position: absolute;
+  transform: rotate(45deg); 
+  border-radius: 100%;
+  position: absolute;
+  top: 12%;
+  left: 12%;
+}
+
+#shape:after {
+  content: "";
+  height: 35%;
+  width: 35%; 
+  background: black;
+  position: absolute;
+  transform: rotate(45deg); 
+  border-radius: 100%;
+  position: absolute;
+  left: 32%;
+  top: 32%
+}
+  
+  
+  
+</style>
+
+
+
+<div id="shape"></div>
+
